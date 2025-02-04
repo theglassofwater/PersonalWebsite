@@ -10,6 +10,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/PersonalWebsite" element={<HomePage />} />
         <Route path="/music-generator" element={<MusicGeneratorPage />} />
         <Route path="/aim-trainer" element={<AimTrainerPage />} />
       </Routes>
